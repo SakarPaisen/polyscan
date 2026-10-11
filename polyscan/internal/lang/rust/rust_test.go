@@ -171,7 +171,7 @@ mod comment_after_cfg { fn helper4() {} }
 /* explains the module below */
 mod comment_after_all { fn helper5() {} }
 
-// A comment on the marker itself matches too.
+// A commented-out marker is not a marker.
 // #[test]
 fn comment_above_test() {}
 `)
